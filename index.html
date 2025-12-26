@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Plots</title>
+<style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.5;
+            color: #333;
+        }
+        h1 { font-size: 1.8em; margin-bottom: 5px; font-weight: normal; font-weight:bold; }
+        h2 { font-size: 1.2em; margin-top: 25px; margin-bottom: 8px; font-weight: normal; font-weight:bold;}
+        p { margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 10px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+</style>    
+</head>
+
+<body>
+
+
+<h1> Interactive CLDN1 Correlation Plots </h1>
+<p>
+
+Interactive Spearman R correlation plots in:
+
+<ul>
+
+<li>AT1_CLDN1_positive</li>
+<li>AT2_CLDN1_positive</li>
+<li>Aberrant Basaloid_CLDN1_positive</li>
+</ul>
+
+
+</p>
+
+
+
+<h2>Hover Feature</h2>
+
+
+<p>
+Each dot respresent a different gene. Hovering over each dot on the plot will reveal; R score, p value, and N cell counts.
+
+</p>
+
+
+<h2>Filtering</h2>
+
+
+<p>
+Filter by N values (min number of cell), p value less than 0.05 or FDR adjusted significance levels.
+
+</p>
+<p>
+<span style='font-style:italic '>Example: </span>
+<br>
+
+
+An N > 200 and p-value < 0.05 were used to define statistically meaningful R scores. For each cell type, R scores were computed only when at least 200 cells contributed to the calculation.
+
+
+</p>
+
+
+<h2>Links: </h2>
+
+<ul> 
+
+<li><a href='ourFDR.html'>Our Dataset</a></li>
+<li><a href='habermannFDR.html'>Habermann Dataset</a></li>
+<li><a href='ourFDR.html'>Mayr Dataset</a></li>
+
+</ul>
+
+
+
+
+
+</body>
+
+</html>
 
